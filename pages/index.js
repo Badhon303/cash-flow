@@ -25,7 +25,7 @@ export default function Home() {
         </Link>
         <Link href="/vault" style={{ textDecoration: "none" }}>
           <div className="right">
-            <Image src="/vault.png" alt="Snow" width={150} height={150} />
+            <Image src="/new-vault.png" alt="Snow" width={150} height={150} />
             <p
               style={{
                 paddingTop: "10px",
