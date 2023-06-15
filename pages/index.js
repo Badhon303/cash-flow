@@ -4,18 +4,38 @@ import Link from "next/link"
 export default function Home() {
   return (
     <div className="title">
-      <h1>Cash Flow</h1>
+      <p style={{ color: "white", fontSize: "40px", fontWeight: "bold" }}>
+        Cash Flow
+      </p>
       <div className="row">
-        <Link href="/cashtransaction">
+        <Link href="/cashtransaction" style={{ textDecoration: "none" }}>
           <div className="left">
-            <Image src="/Transaction.png" alt="Snow" width={100} height={100} />
-            <p style={{ paddingTop: "10px" }}>Cash Transaction</p>
+            <Image src="/cash.png" alt="Snow" width={150} height={150} />
+            <p
+              style={{
+                paddingTop: "10px",
+                fontWeight: "bold",
+                fontSize: "20px",
+                color: "white",
+              }}
+            >
+              Cash Transaction
+            </p>
           </div>
         </Link>
-        <Link href="/vault">
+        <Link href="/vault" style={{ textDecoration: "none" }}>
           <div className="right">
-            <Image src="/Vault.png" alt="Snow" width={100} height={100} />
-            <p style={{ paddingTop: "10px" }}>Vault Status</p>
+            <Image src="/vault.png" alt="Snow" width={150} height={150} />
+            <p
+              style={{
+                paddingTop: "10px",
+                fontWeight: "bold",
+                fontSize: "20px",
+                color: "white",
+              }}
+            >
+              Vault Status
+            </p>
           </div>
         </Link>
       </div>
