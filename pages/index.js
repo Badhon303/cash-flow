@@ -4,9 +4,7 @@ import Link from "next/link"
 export default function Home() {
   return (
     <div className="title">
-      <p style={{ color: "white", fontSize: "40px", fontWeight: "bold" }}>
-        Cash Flow
-      </p>
+      <p style={{ fontSize: "40px", fontWeight: "bold" }}>Cash Flow</p>
       <div className="row">
         <Link href="/cashtransaction" style={{ textDecoration: "none" }}>
           <div className="left">
@@ -16,7 +14,7 @@ export default function Home() {
                 paddingTop: "10px",
                 fontWeight: "bold",
                 fontSize: "20px",
-                color: "white",
+                // color: "white",
               }}
             >
               Cash Transaction
@@ -31,7 +29,7 @@ export default function Home() {
                 paddingTop: "10px",
                 fontWeight: "bold",
                 fontSize: "20px",
-                color: "white",
+                // color: "white",
               }}
             >
               Vault Status
